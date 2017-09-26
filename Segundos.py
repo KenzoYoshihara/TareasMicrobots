@@ -1,0 +1,15 @@
+print("Introduzca los siguientes valores que desea convertir a segundos.")
+dia =input("Dias= ")
+hrs =input("Horas= ")
+min =input("Minutos= ")
+seg =input("Segundos= ")
+
+dia =int(dia)
+hrs =int(hrs)
+min =int(min)
+seg =int(seg)
+
+a =(int(dia)*24 +int(hrs))
+b = a*60+int(min)
+c = b*60+int(seg)
+print("La conversion es igual a ",c," Segundos.")
